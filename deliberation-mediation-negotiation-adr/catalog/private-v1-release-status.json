@@ -1,0 +1,11 @@
+{
+  "package_id": "EXP-DELIB",
+  "private_v1_state": "PRIVATE_PREVIEW_HUMAN_REVIEW_ONLY",
+  "active_use": "fictional_low_stakes_exercises_only",
+  "design_state": "HUMAN_REVIEW",
+  "structural_validation": "PASS",
+  "fixture_contract": "PASS",
+  "independent_forward_test": "NOT_VERIFIED_SUBAGENT_ACL_BLOCKED",
+  "github_publication": "PENDING_PRIVATE_REPOSITORY_CREATION",
+  "conditions": ["human role/authority review", "sensitive-scenario review", "privacy/accessibility", "jurisdictional review", "no autonomous mediation or forced consensus"]
+}

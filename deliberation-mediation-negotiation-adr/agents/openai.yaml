@@ -1,0 +1,7 @@
+interface:
+  display_name: "Deliberation and ADR"
+  short_description: "Structure fair, reviewable disagreement"
+  default_prompt: "Use $deliberation-mediation-negotiation-adr to design a bounded, consent-aware disagreement-resolution process with dissent and reviewability."
+policy:
+  allow_implicit_invocation: true
+

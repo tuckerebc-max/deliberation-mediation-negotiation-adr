@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Deliberation and ADR Artifact",
+  "type": "object",
+  "required": ["artifact_id", "status", "process_contract", "roles_authority", "decision_or_nonresolution", "human_review", "next_action"],
+  "properties": {
+    "artifact_id": {"type": "string"}, "status": {"type": "string"}, "process_contract": {"type": "object"},
+    "stakeholders": {"type": "array"}, "roles_authority": {"type": "object"}, "consent_access": {"type": "array"},
+    "claims_evidence": {"type": "array"}, "interests_rights": {"type": "array"}, "options": {"type": "array"},
+    "participation_record": {"type": "array"}, "dissent_uncertainty": {"type": "array"},
+    "decision_or_nonresolution": {"type": "object"}, "review_triggers": {"type": "array"},
+    "human_review": {"type": "object"}, "next_action": {"type": "string"}
+  },
+  "additionalProperties": true
+}
